@@ -23,7 +23,7 @@
 .card-1,.card-2,.card-3,.card-4{
     max-width:60rem;
     
-    padding: 2.5rem;
+    padding: 1rem;
     height: 8rem;
     box-shadow: 0 4px 8px 0 #1a1d24;
     transition: 0.3s;
