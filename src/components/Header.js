@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Header.css';
-//import myPicture from '../images/header-picture.jpg'
+import Contact from '../components/Contact'
 
 
 const hobbies = ['a front-end developer', 'a gamer', 'a statistician','a swimmer',
@@ -9,7 +9,7 @@ let index = 0
 class Header extends React.Component{
     constructor(props){
         super(props)
-        this.loadIntro = this.loadIntro.bind(this)
+    this.loadIntro = this.loadIntro.bind(this)
     this.state = {
             hobby : []
     }
@@ -24,9 +24,6 @@ class Header extends React.Component{
     componentDidMount(){
       setInterval(this.loadIntro, 2000)
     }
-    handleClick(){
-        
-    }
     render(){
         return(
             <div className= "header-wrapper">
@@ -35,7 +32,7 @@ class Header extends React.Component{
              <h1 id="header-title">I'm Bassit Owolabi</h1>
              <h2 className="header-subtitle">{this.state.hobby}</h2><br /> 
             </header>
-            <button className="container" onClick={this.handleClick}>Hire Me</button>
+            <a id="hire-me" href="mailto: barseetbrown@gmail.com">Hire Me</a>
             </div>
         )}
 }

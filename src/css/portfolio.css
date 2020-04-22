@@ -15,7 +15,7 @@
     height: 300px
 }
 
-a{
+.portfolio-images a{
     text-decoration: none;   
    width:15rem;
    color:#d36821;
@@ -47,11 +47,17 @@ figcaption{
         display: grid;
         grid-template-columns: 50% 50%;
     }
+    #fig-caption_text_1{
+        height: 310px
+    }
 }
 
 @media (min-width: 82rem){
     .portfolio-images{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+    #fig-caption_text_1{
+        height: 280px
     }
 }

@@ -3,7 +3,7 @@ import './css/base.css'
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
-
+import Contact from './components/Contact';
 
 
 class App extends React.Component{
@@ -14,6 +14,7 @@ class App extends React.Component{
       <Header />
       <AboutMe />
       <Portfolio />
+      <Contact />
       </div>
     )
   }

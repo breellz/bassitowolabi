@@ -7,24 +7,27 @@
     "node": "12.14.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
+    "nodemailer": "^6.4.6",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-twemoji": "^0.2.3"
   },
   "scripts": {
     "predeploy": "npm run build",
     "start:dev": "react-scripts start",
-    "start":"node server.js",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
