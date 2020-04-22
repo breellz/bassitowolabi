@@ -14,7 +14,7 @@ const Portfolio = ()=>(
     <div className="portfolio-images">
     <div>
     <img src={flipper} alt="portfolio-image" />
-    <figcaption>My first React App. Flipper is a simple web application 
+    <figcaption id="fig-caption_text_2">My first React App. Flipper is a simple web application 
     that accepts options from users and suggests which one they should
     go for.Being my first app, it took me about a month to complete.
     I was so exicted learning new stuffs. With Flipper I learnt about React components,
@@ -23,7 +23,7 @@ const Portfolio = ()=>(
     </div>
     <div>
     <img src={personal_web_2} alt="portfolio-image" />
-    <figcaption>
+    <figcaption id="fig-caption_text_1">
     This is my second personal website. I built it in two days after I've
     gotten very comfortable with React.<br/><br/>
     <a href="http://breellz.me" target="_blank">Visit Site</a>
@@ -52,7 +52,7 @@ const Portfolio = ()=>(
     </div>
     <div>
     <img src={personal_web_1} alt="portfolio-image" />
-    <figcaption>
+    <figcaption id="fig-caption_text_3">
     Here is my first ever personal website. I spent about a week building this with Bootstrap.
     Bootstrap made everything do easy, by just specifying a class on an element you could make it responsive.
     It was a chilling adventure but at a point I realized I couldn't do this myself without the help of Bootsrap.
