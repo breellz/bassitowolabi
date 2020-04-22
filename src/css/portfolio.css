@@ -1,0 +1,49 @@
+.portfolio-images{
+    display:flex;
+    flex-direction: column;
+    margin:2rem;
+    border: white solid;
+    border-radius: 13rem;
+    align-items: center;
+   
+}
+
+.portfolio-images img{
+    border: white solid;
+    border-radius: 3rem;
+    width: 350px;
+    height: 300px
+}
+
+a{
+    text-decoration: none;   
+   width:15rem;
+   color:#d36821;
+   background: #333745;
+   padding:.5rem;
+   border: solid #d36821;
+   border-radius: 1rem;
+}
+figcaption{
+    font-size: 1.1rem;
+    font-family: 'Yvanone Kaffeesatz', sans-serif;
+    line-height: 1.5rem;
+    text-align: center;
+    max-width: 400px;
+    margin:1rem 0 2rem 0;
+    height:280px;
+}
+
+@media (min-width: 55rem){
+    .portfolio-images{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (min-width: 82rem){
+    .portfolio-images{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}

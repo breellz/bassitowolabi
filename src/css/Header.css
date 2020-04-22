@@ -12,11 +12,10 @@
     width:100vw;
 
 }
-.header-title{
+#header-title{
     text-transform: capitalize;
     font-size: 3rem;
     font-family: 'Righteous',cursive;
-
     color:#d36821;
     
 }

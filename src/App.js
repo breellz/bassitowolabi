@@ -1,7 +1,8 @@
 import React from 'react';
 import './css/base.css'
 import Header from './components/Header';
-import AboutMe from './components/AboutMe'
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
 
 
 
@@ -12,6 +13,7 @@ class App extends React.Component{
       <div>
       <Header />
       <AboutMe />
+      <Portfolio />
       </div>
     )
   }

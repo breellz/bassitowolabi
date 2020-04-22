@@ -32,7 +32,7 @@ class Header extends React.Component{
             <div className= "header-wrapper">
             <header className="containers">
             <p className="header-subtitle">Hey there,</p>
-             <h1 className="header-title">I'm Bassit Owolabi</h1>
+             <h1 id="header-title">I'm Bassit Owolabi</h1>
              <h2 className="header-subtitle">{this.state.hobby}</h2><br /> 
             </header>
             <button className="container" onClick={this.handleClick}>Hire Me</button>

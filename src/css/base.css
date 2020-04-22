@@ -6,3 +6,11 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+.h1-center{
+    font-family: 'Righteous',cursive;
+    color:#d36821;
+    display:flex;
+    justify-content: center;
+    margin:1.2rem;
+    text-align: center;
+}
