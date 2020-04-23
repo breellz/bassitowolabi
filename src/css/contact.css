@@ -3,13 +3,12 @@ display: flex;
 justify-content: center;
 }
 .social-icons i{
-    padding: 3rem;
+    padding: .5rem;
     color:#d36821;
 }
 #contact-text{
     font-size: 1.1rem;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-family: 'Yvanone Kaffeesatz', sans-serif;
 }
 p a {

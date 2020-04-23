@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Header.css';
-import Contact from '../components/Contact'
+
 
 
 const hobbies = ['a front-end developer', 'a gamer', 'a statistician','a swimmer',
