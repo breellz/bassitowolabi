@@ -9,20 +9,21 @@ let index = 0
 class Header extends React.Component{
     constructor(props){
         super(props)
-    this.loadIntro = this.loadIntro.bind(this)
-    this.state = {
+         this.loadIntro = this.loadIntro.bind(this)
+         this.state = {
             hobby : []
     }
+
     }
     loadIntro(){
-    this.setState(()=>({hobby: hobbies[index]}))
-     index++
-     if(index >= hobbies.length){
-         index = 0
-     }
+        this.setState(()=>({hobby: hobbies[index]}))
+        index++
+        if(index >= hobbies.length){
+           index = 0
+        }
     }
     componentDidMount(){
-      setInterval(this.loadIntro, 2000)
+       setInterval(this.loadIntro, 2000)
     }
     render(){
         return(
