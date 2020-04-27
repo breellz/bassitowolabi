@@ -5,15 +5,20 @@ import apiKeys from '../apikeys'
 
 const onSubmit=(e)=>{
     e.preventDefault()
-      emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+     emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
       .then(
       result => {
-        console.log(result.text)
+        alert('Message Sent, I\'ll get back to you shortly', result.text);
       },
       error => {
-        console.log(error.text)
+        alert( 'An error occured, Plese try again',error.text)
       }
     )
+    e.target.elements.name.value = ''
+    e.target.elements.message.value = ''
+    e.target.elements.subject.value = ''
+    e.target.elements.email.value = ''
+
   }
 
 const ContactForm = ()=>(
@@ -23,6 +28,8 @@ const ContactForm = ()=>(
     
        <p>Your Name:</p>
         <input name='name' type="text" placeholder="Your name..." className="form__input" />
+        <p>Your Email:</p>
+        <input name='email' type="email" placeholder="Your email..." className="form__input" />
         <p>Subject:</p>
         <input name='subject' type="text" placeholder="Subject..." className="form__input"  />
         <p>Your Message:</p>
