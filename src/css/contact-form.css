@@ -1,0 +1,37 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:60%;
+    max-width:70%;
+    margin :0 auto;
+}
+
+.form input{
+    height: 2rem;
+    border: solid .3rem #d36821;
+    border-radius: .8rem;
+    margin: .5rem
+}
+textarea{
+    height:8rem;
+    border: solid .3rem #d36821;
+    border-radius: .8rem;
+    margin: .5rem
+}
+.form__input--button{
+    width:100%;
+    color:#d36821;
+    background: #333745;
+    padding:.2rem;
+    border: solid #d36821;
+    border-radius: .8rem;
+    text-align: center;
+    font-family: 'Righteous',cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.form p {
+    font-size: 1.2rem;
+    margin-top:.5rem
+}

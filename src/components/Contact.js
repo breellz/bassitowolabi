@@ -2,10 +2,13 @@ import React from 'react';
 import '../css/contact.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
-const Contact =()=>(
-    <div>
+const Contact =(props)=>(
+    <div id="contact-me">
     <h1 className="h1-center">Contact Me!</h1>
     <p id="contact-text">Let's connect.  I prefer <a href="https://twitter.com/breellz" target="_blank" rel="noopener noreferrer"> Twitter DMs</a> and <a href="mailto: barseetbrown@gmil.com"> Email</a></p>
+    <br />    
+    {props.children}
+    <br />
     <div className="social-icons">
     <a href="https://twitter.com/breellz" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-twitter fa-3x"></i></a>
