@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.d200df06.chunk.css",
-    "main.js": "/static/js/main.35a9721a.chunk.js",
+    "main.js": "/static/js/main.711e9623.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.814ef4da.js",
     "static/css/2.ff607ca4.chunk.css": "/static/css/2.ff607ca4.chunk.css",
-    "static/js/2.ddb62733.chunk.js": "/static/js/2.ddb62733.chunk.js",
+    "static/js/2.e77e7518.chunk.js": "/static/js/2.e77e7518.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.6bc39cdd0d6495f47aa6ef98944c45c3.js": "/precache-manifest.6bc39cdd0d6495f47aa6ef98944c45c3.js",
+    "precache-manifest.aca9c261c0f0cf606e0d848669e64673.js": "/precache-manifest.aca9c261c0f0cf606e0d848669e64673.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.ddb62733.chunk.js.LICENSE.txt": "/static/js/2.ddb62733.chunk.js.LICENSE.txt",
+    "static/js/2.e77e7518.chunk.js.LICENSE.txt": "/static/js/2.e77e7518.chunk.js.LICENSE.txt",
     "static/media/covid19.jpg": "/static/media/covid19.d0cd550c.jpg",
     "static/media/expensify.jpg": "/static/media/expensify.2c99cd80.jpg",
     "static/media/all.css": "/static/media/fa-solid-900.ec763292.svg",
@@ -16,13 +16,15 @@
     "static/media/Header.css": "/static/media/header.1ca3ad01.jpg",
     "static/media/ocr.jpg": "/static/media/ocr.78706b11.jpg",
     "static/media/personal_web_1.jpg": "/static/media/personal_web_1.11b88c29.jpg",
-    "static/media/personal_web_2.jpg": "/static/media/personal_web_2.6c104ea1.jpg"
+    "static/media/personal_web_2.jpg": "/static/media/personal_web_2.6c104ea1.jpg",
+    "static/media/veepie.jpg": "/static/media/veepie.f9dea576.jpg",
+    "static/media/youtube.jpg": "/static/media/youtube.cbc5a059.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.814ef4da.js",
     "static/css/2.ff607ca4.chunk.css",
-    "static/js/2.ddb62733.chunk.js",
+    "static/js/2.e77e7518.chunk.js",
     "static/css/main.d200df06.chunk.css",
-    "static/js/main.35a9721a.chunk.js"
+    "static/js/main.711e9623.chunk.js"
   ]
 }
