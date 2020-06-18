@@ -5,7 +5,9 @@ import flipper from '../images/flipper.jpg'
 import ocr from '../images/ocr.jpg'
 import personal_web_1 from '../images/personal_web_1.jpg'
 import personal_web_2 from '../images/personal_web_2.jpg';
-import expensify from '../images/expensify.jpg'
+import expensify from '../images/expensify.jpg';
+import veepie from '../images/veepie.jpg'
+import youtube from '../images/youtube.jpg'
 
 
 
@@ -81,6 +83,25 @@ const Portfolio = ()=>(
      with the country of the userscoming up first. Data provided include, daeth count, total confirmed cases<span role="img" aria-label="sheep">😢☹</span>
      total deaths, new cases and the likes.<br/><br/>
      <a href="https://breellz.github.io/covid19-today/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+    </figcaption>
+    </div>
+    <div>
+    <img src={veepie} alt="portfolio" />
+    <figcaption>
+    Veepie is a blogging platform I built with react and redux. 
+    It features account registration and some features of realword app like writing to a database and reading from it.
+    while working on this project I implemented stuffs like React-router,redux,testing with jest, firebase,
+     firebase authentication and React Hooks. 
+    .<br/><br/>
+     <a href="https://veepie.herokuapp.com" target="_blank" rel="noopener noreferrer">Visit Site</a>
+    </figcaption>
+    </div>
+    <div>
+    <img src={youtube} alt="portfolio" />
+    <figcaption>
+    A simple react app to fetch youtbe videos based on your mood! Either sad or happy, you're covered.
+    <br/><br/>
+     <a href="https://breellz.github.io/youtube-mood-player" target="_blank" rel="noopener noreferrer">Visit Site</a>
     </figcaption>
     </div>
     </div>
